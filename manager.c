@@ -45,7 +45,7 @@ void saveData(Product p[], int count){
 		if(p[i].price == -1) continue;
 		fprintf(fp, "%s %d %d\n",p[i].name,p[i].weight,p[i].price);
 	}	
-	//---------------작성 내용---------------------------------	
+	//----------------작성 내용---------------------------------	
 	fclose(fp);
 	printf("저장됨!\n");
 }
